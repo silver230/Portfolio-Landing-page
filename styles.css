@@ -4,15 +4,6 @@ body{
 
 }
 .container{
-<<<<<<< HEAD
-  /* padding: 60px; */
-  background-repeat: no-repeat; 
-  background-size:cover;
-  position: fixed;
-  width: 100%;
-  height: 100vh; 
-  background-image:url(images/IMG_4958.JPG);
-=======
   padding: 60px;
   background-repeat: no-repeat;
   background-size:cover; 
@@ -20,10 +11,10 @@ body{
   width: 100%;
   height: 100vh; 
   background-image: url('./images/IMG_4958.JPG');
->>>>>>> gh-pages
+  background-position: center; 
   /* left: 50%; */
   /* top: 0%; */
-  /* margin-left: -100px; */
+  margin-left: -100px;
    /* margin-top:0; */
   /* position: absolute; */
 }
