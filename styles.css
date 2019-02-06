@@ -4,6 +4,7 @@ body{
 
 }
 .container{
+<<<<<<< HEAD
   /* padding: 60px; */
   background-repeat: no-repeat; 
   background-size:cover;
@@ -11,11 +12,20 @@ body{
   width: 100%;
   height: 100vh; 
   background-image:url(images/IMG_4958.JPG);
+=======
+  padding: 60px;
+  background-repeat: no-repeat;
+  background-size:cover; 
+  position: fixed;
+  width: 100%;
+  height: 100vh; 
+  background-image: url('./images/IMG_4958.JPG');
+>>>>>>> gh-pages
   /* left: 50%; */
   /* top: 0%; */
-  /* margin-left: -300px; */
-  /* margin-top:0;
-  position: absolute; */
+  /* margin-left: -100px; */
+   /* margin-top:0; */
+  /* position: absolute; */
 }
 #info{
   /* color:emerald;
