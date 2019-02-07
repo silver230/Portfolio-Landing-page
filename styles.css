@@ -12,20 +12,7 @@ body{
   height: 100vh; 
   background-image: url('./images/IMG_4958.JPG');
   background-position: center 
-  /* left: 50%; */
-  /* top: 0%; */
-  /* margin-left: -100px; */
-   /* margin-top:0; */
-  /* position: absolute; */
-}
-#info{
-  /* color:emerald;
-  font-size: 30px;
-  border: solid orange;
-  border-radius: 80px;
-  padding: 40px;
-  width: 40%;
-  text-decoration: none; */
+   
 }
 .text{
   font-weight :100;
@@ -72,7 +59,7 @@ font-size: 6em;
 .container p{
 	-float: right;
 	padding-left: 140px;
-	margin-top: -310px;
+	margin-top: -390px;
 	font-size: 28px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: thin;
@@ -88,10 +75,16 @@ font-size: 6em;
 
 span{
 	text-shadow: 0 1px solid rgb(10, 10, 10);
-}
-span{
 	color:rgb(248, 153, 10);
 	font-family:'Open Sans', sans-serif;
 	font-weight: lighter;
 
 }
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  span{
+      background-color:red;
+      color:blue;
+      
+  }
+}
+
