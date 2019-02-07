@@ -57,9 +57,9 @@ font-size: 6em;
 }
 
 .container p{
-	-float: right;
-	padding-left: 140px;
-	margin-top: -390px;
+	-float: left;
+	padding-left: 500px;
+	margin-top: -400px;
 	font-size: 28px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: thin;
@@ -67,9 +67,9 @@ font-size: 6em;
 	-animation: type 7s steps(108);
 	overflow: hidden;
 	white-space: nowrap;
-	width: 600px;
+	/* width: 600px; */
   /* margin-left: 170px; */
-  color: #ffff;
+  color: black;
 
 }
 
